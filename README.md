@@ -34,7 +34,7 @@ $ python main.py --test --vis
 ```
 ### Algorithm used
 Q-values are updated based on the following formula:
-<a href="http://www.codecogs.com/eqnedit.php?latex=Q(s,a)\leftarrow&space;Q(s,a)&plus;\alpha\[r&space;&plus;&space;\gamma&space;\max_{a'}&space;Q(s',a')-Q(s,a)&space;\]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?Q(s,a)\leftarrow&space;Q(s,a)&plus;\alpha\[r&space;&plus;&space;\gamma&space;\max_{a'}&space;Q(s',a')-Q(s,a)&space;\]" title="Q(s,a)\leftarrow Q(s,a)+\alpha\[r + \gamma \max_{a'} Q(s',a')-Q(s,a) \]" /></a>
+<img src="http://latex.codecogs.com/gif.latex?\inline&space;\dpi{200}&space;\large&space;Q(s,a)\leftarrow&space;Q(s,a)&plus;\alpha\[r&space;&plus;&space;\gamma&space;\max_{a'}&space;Q(s',a')-Q(s,a)&space;\]" title="\large Q(s,a)\leftarrow Q(s,a)+\alpha\[r + \gamma \max_{a'} Q(s',a')-Q(s,a) \]" />
 
 ## pseudo formula
 
