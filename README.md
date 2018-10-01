@@ -1,3 +1,9 @@
+## Overview
+
+
+This is the code for [this](https://youtu.be/-vhYoS3751g) video on Youtube by Siraj Raval on the Mathematics of Dopamine. Credit for the q learning + TD Error code go to [pierpaolo](https://github.com/PierpaoloLucarelli/QLearningMaze). The other 2 scripts i hacked together myself. Enjoy! 
+
+
 ![q-learning td error](https://raw.githubusercontent.com/PierpaoloLucarelli/QLearningMaze/master/qlearn2.gif)
 
 Goal: Reaching the yellow oval while avoiding black blocks and moving enemy (red block)
