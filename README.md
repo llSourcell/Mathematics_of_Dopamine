@@ -6,7 +6,11 @@ This is the code for [this](https://youtu.be/-vhYoS3751g) video on Youtube by Si
 
 ![q-learning td error](https://raw.githubusercontent.com/PierpaoloLucarelli/QLearningMaze/master/qlearn2.gif)
 
+
+
 Goal: Reaching the yellow oval while avoiding black blocks and moving enemy (red block)
+
+
 
 # QLearningMaze
 
@@ -19,22 +23,32 @@ $ python main.py
 ```
 Project comes with trained Qtable in pickled file **action**
 You may run in the following ways
+
+
 ### Importing Q-table and running optimal policy
 ```sh
 $ python main.py
 ```
+
+
 ### Training
 ```sh
 $ python main.py --test
 ```
+
+
 ### Training + GUI
 (slow, mostly for debugging)
 ```sh
 $ python main.py --test --vis
 ```
+
+
 ### Algorithm used
 Q-values are updated based on the following formula:
 <img src="http://latex.codecogs.com/gif.latex?\inline&space;\dpi{200}&space;\large&space;Q(s,a)\leftarrow&space;Q(s,a)&plus;\alpha\[r&space;&plus;&space;\gamma&space;\max_{a'}&space;Q(s',a')-Q(s,a)&space;\]" title="\large Q(s,a)\leftarrow Q(s,a)+\alpha\[r + \gamma \max_{a'} Q(s',a')-Q(s,a) \]" />
+
+
 
 ## pseudo formula
 
